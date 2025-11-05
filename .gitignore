@@ -1,0 +1,15 @@
+# FiveM
+server-data/
+cache/
+*.log
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
