@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Consolas', 'Courier New', monospace;
+    overflow: hidden;
+    background: transparent;
+}
+
+#grk-hud {
+    position: absolute;
+    padding: 12px 16px;
+    background: rgba(10, 10, 10, 0.85);
+    border: 1px solid #00ff88;
+    border-radius: 10px;
+    color: #88ffcc;
+    font-size: 13px;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);
+    transition: all 0.3s ease;
+    z-index: 9999;
+}
+
+#grk-hud.top-right { top: 20px; right: 20px; }
+#grk-hud.top-left  { top: 20px; left: 20px; }
+#grk-hud.bottom-right { bottom: 20px; right: 20px; }
+#grk-hud.bottom-left  { bottom: 20px; left: 20px; }
+
+.logo-container {
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.logo {
+    height: 28px;
+    filter: drop-shadow(0 0 4px #00ff88);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.version {
+    color: #00aaff;
+}
+
+.status {
+    color: #00ff88;
+    animation: pulse 2s infinite;
+}
+
+.ia-tag {
+    font-size: 10px;
+    color: #00aaff;
+    text-align: center;
+    opacity: 0.9;
+    letter-spacing: 1px;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.9);
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 0.8; }
+    50% { opacity: 1; }
+}
