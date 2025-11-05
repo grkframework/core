@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="400" height="120" fill="#0a0a0a" rx="15"/>
+  
+  <!-- Grk Wordmark -->
+  <text x="20" y="70" font-family="Consolas, monospace" font-size="60" font-weight="bold" fill="#00ff88">
+    Grk
+  </text>
+  
+  <!-- Framework Subtitle -->
+  <text x="120" y="70" font-family="Arial, sans-serif" font-size="28" fill="#88ffcc">
+    Framework
+  </text>
+  
+  <!-- IA Tag -->
+  <text x="120" y="92" font-family="Arial, sans-serif" font-size="16" fill="#00aaff" opacity="0.9">
+    IA-Powered RP Engine
+  </text>
+  
+  <!-- Circuit Lines -->
+  <path d="M 20 20 L 50 20 L 50 40 L 80 40 L 80 20 L 110 20" 
+        stroke="#00ff88" stroke-width="2.5" fill="none" opacity="0.7"/>
+  <path d="M 290 100 L 320 100 L 320 80 L 350 80 L 350 100 L 380 100" 
+        stroke="#00aaff" stroke-width="2.5" fill="none" opacity="0.7"/>
+</svg>
